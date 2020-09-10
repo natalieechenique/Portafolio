@@ -1,36 +1,48 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
+import logo from '../img/logo.png'
+import fondo13 from '../img/fondo13.jpg';
 
 const Styles = styled.div`
-.navbar {
-   background-color: black; 
+.navbar {  
+   background: url(${fondo13}) no-repeat fixed bottom;
+   background-size:cover;
 }
-
 .navbar-brand, .navbar-nav .nav-link {
 color: cyan;
-
 &:hover {
-    color: white;
+    color: pink;
   }
+  .Navbar.Toggle aría-controls { 
+    color: cyan !important; 
+} 
+
  }
 `;
 
 export const NavBar = () => (
     <Styles>
         <Navbar expand='lg'>
-            <Navbar.Brand href='/'>NE</Navbar.Brand>
-            <Navbar.Toggle aría-controls='basic-navbar-nav' />
+            
+            <Navbar.Brand href='/'> {<img alt="logo" width='45px' src = {logo} />}</Navbar.Brand>
 
+            <Navbar.Toggle aría-controls='navbar-dark .navbar basic-navbar-nav' />
+           
             <Navbar.Collapse id='Basic-navbar-nav'>
+
                 <Nav className='ml-auto'>
                     <Nav.Item><Nav.Link href='/'>Home</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href='/About'>About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href='/Proyects'>Proyects</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href='/Contact'>Contact</Nav.Link></Nav.Item><Nav.Item>
-                    <Nav.Link href='/Error'></Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href='/Contact'>Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href='/Error'></Nav.Link></Nav.Item>
+
                 </Nav>
+
             </Navbar.Collapse>
+
         </Navbar>
+
     </Styles>
-)
+);
