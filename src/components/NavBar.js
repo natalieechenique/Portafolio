@@ -16,8 +16,11 @@ color: cyan;
   }
   .Navbar.Toggle aría-controls { 
     color: cyan !important; 
+  }
+    .lo
+        margin-left:20px;
+    }
 } 
-
  }
 `;
 
@@ -25,7 +28,7 @@ export const NavBar = () => (
     <Styles>
         <Navbar expand='lg'>
             
-            <Navbar.Brand href='/'> {<img alt="logo" width='45px' src = {logo} />}</Navbar.Brand>
+            <Navbar.Brand href='/'> {<img alt="logo" width='50px' src = {logo} />}</Navbar.Brand>
 
             <Navbar.Toggle aría-controls='navbar-dark .navbar basic-navbar-nav' />
            
@@ -33,7 +36,7 @@ export const NavBar = () => (
 
                 <Nav className='ml-auto'>
                     <Nav.Item><Nav.Link href='/'>Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href='/About'>About</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href='/Skills'>About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href='/Proyects'>Proyects</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href='/Contact'>Contact</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href='/Error'></Nav.Link></Nav.Item>
