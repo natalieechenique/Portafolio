@@ -24,7 +24,7 @@ export const Contact = () => (
 <span className='icon'>
 <a href="https://github.com/natalieechenique/"><img src={github} alt="GitHub" width='37px'/><p>natalieechenique</p></a></span>
 <span className='icon'>
-<a href="https://www.linkedin.com/in/natalie-em/"><img src={linkedin} alt="GitHub" width='37px'/><p>natalieechenique</p></a></span>
+<a href="https://www.linkedin.com/in/natalie-em/"><img src={linkedin} alt="GitHub" width='37px'/><p>natalie-em</p></a></span>
 <span className='icon'><a href="https://drive.google.com/file/d/15JmcpKTew7A-ZjBfscd1--T3wuh22c0v/view" download="Currículum"><img class="projectImg" src={pdf} width='45px' alt="Currículum"></img><h6>Descargar CV</h6></a>
   </span>
   </div>
