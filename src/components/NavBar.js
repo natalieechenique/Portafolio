@@ -8,6 +8,9 @@ const Styles = styled.div`
 .navbar {  
    background: url(${fondo13}) no-repeat fixed bottom;
    background-size:cover;
+   position: fixed;
+   top: 0;
+   width: 100%;
 }
 
 
