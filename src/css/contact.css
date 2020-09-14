@@ -1,0 +1,33 @@
+.contact-cont {
+  /* display:grid;
+  grid-template-rows:1fr 1fr; */
+  text-align:center;
+  margin:20px;
+}
+
+.contact {
+  padding:10px;
+  padding-top:10px;
+  border-radius:10px;
+  text-align:center;
+  border: 1px solid rgb(184, 181, 213); 
+  margin:1px;
+}
+
+.icon img{
+  text-align:center;
+}
+
+ .downcv {
+  margin: 20px;
+}
+
+.contact-cont {
+  padding-bottom:30px;
+  }
+
+.contactme {
+  padding:30px;
+  background-color: rgba(214, 217, 221, 0.618);
+}
+

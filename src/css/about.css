@@ -1,0 +1,13 @@
+.aboutme {
+    padding:20px;
+    border-bottom:1px solid rgb(206, 216, 226);
+    text-align:center;
+  }
+
+.title2 {
+    margin-bottom:20px;
+  }
+
+  .hobby, .hobbies, .skill, .skills {
+    padding:10px;
+  }

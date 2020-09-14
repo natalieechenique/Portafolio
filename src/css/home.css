@@ -1,0 +1,19 @@
+.photo-description {
+  padding:10px;
+  text-align:center;
+}
+
+.subtitle {
+  text-align:center;
+  color:rgb(98, 174, 182);
+}
+
+.photo {
+  text-align:center;
+}
+
+.description {
+margin:10px;
+align-self: center;
+text-align:justify;
+}

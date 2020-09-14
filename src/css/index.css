@@ -1,0 +1,150 @@
+/* MOBILE FIRST */
+body {
+  margin: 0;
+  font-family:'Ubuntu Mono', monospace;
+    color: rgb(93, 80, 119);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(255, 255, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  border-radius:20px;
+  margin-bottom:60px;
+}
+
+.main-cont {
+  background-color:rgb(244, 241, 247);
+  text-align:center;
+  border-radius:10px;
+}
+
+.title {
+  width:100%;
+  background-color:rgba(223, 191, 223, 0.912);
+  margin:0px auto;
+  padding:10px;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:13px;
+  border-radius:10px;
+  box-shadow: 0px 13px 16px -13px rgba(0,0,0,0.9);
+}
+h2 {
+  padding:20px;
+  text-align:center;
+}
+
+.title-cont h5 {
+  text-align:center;
+  margin-top:10px;
+  text-align:center;
+  font-weight: bold;
+}
+
+h3 {
+  padding:20px;
+}
+
+h4 {
+  color:rgb(102, 98, 104);
+}
+
+a.nav-link {
+  font-size:24px;
+}
+
+.laptop {
+text-align:right;
+position: relative;
+bottom: 0;
+margin-right:20px;
+padding-bottom:70px;
+padding:10px;
+}
+
+.footer { 
+  display:flex;
+  justify-content:center;
+   background-color: rgb(32, 20, 51);
+   color:rgb(79, 206, 223);
+   padding-top:15px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   }
+
+ 
+/* RESPONSIVE */
+@media (min-width: 992px) {
+  .main-cont {
+  margin-top:10px;
+  }
+  .photo-subtitle {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }  
+   .photo-subtitle {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  } 
+  .photo img {
+    display:grid;
+    grid-template-rows:1fr;
+    justify-items: right;
+    padding-top:30px;
+    margin-left:190px;
+    width:320px;
+  }
+  .subtitle {
+    display:grid;
+    grid-template-rows:1fr;
+    justify-items: left;
+    align-items: center;
+    text-align:justify;
+  }
+  .description {
+    text-align:center;
+    margin:5px;
+    padding:20px;
+    align-self: center;
+    justify-self: right;
+    }
+    .laptop img{
+    width:350px;   
+    margin-right:40px;
+    }
+    .contact-cont {
+    display:grid;
+    grid-template-columns:1fr 1fr; 
+    margin:20px;
+    padding-top:30px;
+    padding-bottom:50px;
+    }
+    .contact {
+      /* display:flex;
+      flex-direction:column; */
+    }
+    .icon {
+      text-align:center;
+    }
+  
+    .skill {
+      padding:10px;
+    }
+
+  }
+
+      @media only screen and
+      (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
+      (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait)  {
+        .main-cont {
+          margin-top:60px;
+          padding-bottom:30px;
+          }
+  }
