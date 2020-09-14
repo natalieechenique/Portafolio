@@ -43,7 +43,7 @@ export const Proyects = () => (
     <span className='proyectinf'>
     <h6>Red social para seguidores de Star Wars</h6></span>
     <div className='imgcode'>
-    <a href='face-wars-9766e.web.app/#/'><img class="projectImg" src={FW} width='180px' heigth='100px' alt='Face Wars'></img></a>
+    <a href="https://face-wars-9766e.web.app/#/"><img class="projectImg" src={FW} width='180px' heigth='100px' alt='Face Wars'></img></a>
     <a href="https://github.com/natalieechenique/SCL013-social-network/"><img class="code" src={code} width='60px' alt='Code'></img></a>
     </div>
     </div>

@@ -85,6 +85,7 @@ padding:10px;
 @media (min-width: 992px) {
   .main-cont {
   margin-top:10px;
+  margin-bottom:100px;
   }
   .photo-subtitle {
     display:grid;
@@ -127,10 +128,7 @@ padding:10px;
     padding-top:30px;
     padding-bottom:50px;
     }
-    .contact {
-      /* display:flex;
-      flex-direction:column; */
-    }
+   
     .icon {
       text-align:center;
     }
@@ -139,13 +137,21 @@ padding:10px;
       padding:10px;
     }
 
+    .error {
+      text-align:center;
+    }
+
   }
 
       @media only screen and
       (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
       (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait)  {
+        .container {
+top:90;
+        }
         .main-cont {
           margin-top:60px;
           padding-bottom:30px;
+          margin-bottom:100px;
           }
   }
