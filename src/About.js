@@ -34,7 +34,7 @@ export const About= () => (
     </div>
     <div className='aboutme'>
     <img src={nat} alt="foto" width="100px"/>
-    <p class='description'>Siempre me gustó la tecnología, el descubrir y nuevas cosas y ponerlas en práctica. 
+    <p class='description'>Siempre me gustó la tecnología, el descubrir nuevas cosas y ponerlas en práctica. 
     Mis primeras experiencias laborales fueron en el área de la salud y Yoga, dónde cultivé la relación con clientes.
     Luego tuve una experiencia de 2 años en empresa de tecnología, realizando edición de contenidos para plataforma de educación online, Pleno Internacional (Santillana), después revisión de digitación, además de trabajo administrativo.
     En este lugar conocí este ambiente y me interesé en él.
