@@ -1,6 +1,9 @@
 import React from 'react';
 import foto from "./img/foto.png";
 import { Laptop } from './components/Laptop';
+import { Proyects } from './Proyects';
+import { About } from './About';
+import { Contact } from './Contact'
 import './css/home.css';
 
 export const Home = () => (
@@ -24,8 +27,20 @@ export const Home = () => (
       En este interesante e inmenso mundo puedo tener muchos desafíos, además de mayor estabilidad laboral.
       Me gusta el arte y para mi el código también es crear, a su vez, me interesa mucho el diseño UI.</h4>
     </div>
-    </div>
     <Laptop />
+    </div>
+
+ <div className='about' id='about'>
+ <About />
+ </div>
+
+ <div className='proyects' id='proyects'>
+ <Proyects />
+ </div>
+
+<div className='contact' id='contact'>
+ <Contact />
+ </div>
 
 </div>
 );

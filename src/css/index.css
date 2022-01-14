@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   margin-top:80px;
   border-radius:20px;

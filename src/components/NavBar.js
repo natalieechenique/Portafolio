@@ -7,19 +7,24 @@ import fondo13 from '../img/fondo13.jpg';
 const Styles = styled.div`
 .navbar {  
    background: url(${fondo13}) no-repeat fixed bottom;
-   background-size:cover;
+   background-size: cover;
    position: fixed;
    top: 0;
    width: 100%;
 }
 
-
-
 .navbar-brand, .navbar-nav .nav-link {
 color: cyan;
 &:hover {
-    color: pink;
+    color: rgb(238, 130, 238) !important;
   }
+}
+
+.nav-link.active {
+    color: pink !important;
+    font-weight: semi-bold;
+  }
+  
   .Navbar.Toggle aría-controls { 
     color: cyan !important; 
   }
@@ -47,9 +52,9 @@ export const NavBar = () => (
 
         <Nav className='ml-auto'>
           <Nav.Item><Nav.Link href='/'>Inicio</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href='/About'>Sobre-mí</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href='/Proyects'>Proyectos</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href='/Contact'>Contacto</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href='/#about'>Sobre-mí</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href='/#proyects'>Proyectos</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href='/#contact'>Contacto</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href='/Error'></Nav.Link></Nav.Item>
 
         </Nav>
